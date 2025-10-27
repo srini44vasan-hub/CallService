@@ -6,3 +6,5 @@ sum = sum1 + h
 k = 10
 add = sum + k
 print ("sum of the numbers =" add)
+sub = add -sum
+print ("sub of the numer =" sub)
