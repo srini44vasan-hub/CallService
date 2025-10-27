@@ -1,4 +1,4 @@
-a = 400890000999888
-b = 600890000999888
+a = 5000
+b = 6000
 sum = a + b
 print ("sum of the numbers =" sum)
