@@ -1,7 +1,7 @@
 f= 100
 g = 200
 sum1 = f + g
-h = 600000000004569321
+h = 6
 sum = sum1 + h
 add = sum (sum +sum)
 print ("sum of the numbers =" sum)
