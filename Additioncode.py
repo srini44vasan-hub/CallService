@@ -1,6 +1,4 @@
-a = 100
-b = 200
-c = 300
-f = 400
-sum = a + b + c + F
+f= 100
+g = 200
+sum = f + g
 print ("sum of the numbers =" sum)
