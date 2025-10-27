@@ -2,6 +2,5 @@ a = 100
 b = 200
 c = 300
 d = 400
->>>>>>> dd3d9caa8049c5215272afe740b443ff8258e800
-sum = a + b + c
+sum = a + b + c + F
 print ("sum of the numbers =" sum)
