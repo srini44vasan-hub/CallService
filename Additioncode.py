@@ -6,7 +6,7 @@ g = 20
 e= 20 //dev branch1//
 ee = 22 //msl brnach 1//
 sum = sum1 + h + g
-add = sum (sum +sum)
+add = sum (sum +sum1)
 print ("sum of the numbers =" sum)
 print ("hi how are  you")
 print  ("I am fine")
