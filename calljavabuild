@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+ tools {
+  maven 'mvn_home'
+	}
+
+    stages {
+        stage('SCM Checkout') {
+            steps {
+                git branch: 'main', credentialsId: 'Git-Cred', url: 'https://github.com/srini44vasan-hub/JavaMavenGit.git'
+            }
+        }
+		stage('Maven Clean') {
+            steps {
+             sh 'mvn clean'
+            }
+        }		
+		stage('Maven Build') {
+            steps {
+             sh 'mvn compile'
+            }
+        }
+		stage('Maven-Deploy') {
+            steps {
+            sh 'mvn package'
+            }
+        }
+    }
+}
